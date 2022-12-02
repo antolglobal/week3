@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>BS Modal</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+		
+		<style type="text/css">
+		
+				/*div{
+				border:1px solid red;
+				}  */
+    </style>
+  </head>
+  <body>
+   <div class="container mt-3">
+		<div class="row">
+			<div class="col-md-6">
+				<p>Yankari Resort & Safari is a large wildlife park located in the south-central part of Bauchi State, 
+		in northeastern Nigeria. It covers an area of about 2,244 square kilometres (866 sq mi) and is home to 
+		several natural warm water springs, as well as a wide variety of flora and fauna. Its location in the 
+		heartland of the West African savanna makes it a unique way for tourists and holidaymakers to watch wildlife 
+		in its natural habitat. Yankari was originally created as a game reserve in 1956, but later designated Nigeria’s 
+		biggest national park in 1991. It is the most popular destination for tourists in Nigeria and, as such, plays a 
+		crucial role in the development and promotion of tourism and ecotourism in Nigeria. It is also one of the most 
+		popular eco-destinations in West Africa.</p>
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#infomodal">
+				  Learn More
+				</button>
+			</div>
+			<div class="col-md-6">
+			
+			<p>click on this to 
+			<a href="" data-bs-toggle="modal" data-bs-target="#contactusmodal">Contact us</a>
+			</p>
+			<p>
+			<button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDeals" aria-controls="#offcanvasDeals">
+			Deals of the day
+			</button>
+			</p>
+			
+			</div>
+		</div>
+	</div>
+		
+		
+		<!-- Modal -->
+<div class="modal fade" id="infomodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Save the Poor</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+		<img src="images/7.png" alt="photo" style="width:60%; float:left;">
+		<p>Yankari Resort & Safari is a large wildlife park located in the south-central part of Bauchi State, 
+		in northeastern Nigeria. It covers an area of about 2,244 square kilometres (866 sq mi) and is home to 
+		several natural warm water springs, as well as a wide variety of flora and fauna. Its location in the 
+		heartland of the West African savanna makes it a unique way for tourists and holidaymakers to watch wildlife 
+		in its natural habitat. Yankari was originally created as a game reserve in 1956, but later designated Nigeria’s 
+		biggest national park in 1991. It is the most popular destination for tourists in Nigeria and, as such, plays a 
+		crucial role in the development and promotion of tourism and ecotourism in Nigeria. It is also one of the most 
+		popular eco-destinations in West Africa.</p>
+		
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+		
+<!-- Contact Us Modal -->
+<div class="modal fade" id="contactusmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"  data-bs-backdrop="static" data-bs-keyboard="false">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+			<form action="" method="">
+			<div class="mb-3">
+				<label class="form-label">Fullname</label>
+				<input type="text" name="fullname" class="form-control">
+			</div>
+			
+			<div class="mb-3">
+				<label class="form-label">Message</label>
+				<textarea type="text" name="message" class="form-control"></textarea>
+			</div>
+			</form>
+	  
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+	
+	
+	<!-- offcanvas -->
+	<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDeals" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Deals of the Day</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" ></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+	  <img src="images/4.png" alt="photo1" class="image-fluid">
+	  <h6>HP Laptop</h6>
+	  <span>&#8358 250,000.00</span>
+	  <a class="btn btn-primary">Add to cart</a>
+	  <hr>
+	  
+	  
+	  <img src="images/4.png" alt="photo1" class="image-fluid">
+	  <h6>HP Laptop</h6>
+	  <span>&#8358 250,000.00</span>
+	  <a class="btn btn-primary">Add to cart</a>
+	  
+    </div>
+     
+  </div>
+</div>
+	
+	
+<!-- Bootstrap JS -->
+		<script src="bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+  </body>
+</html>
